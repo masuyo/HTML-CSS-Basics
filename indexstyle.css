@@ -1,0 +1,22 @@
+body {
+    background-color: darkseagreen;
+}
+nav {
+    margin: 0px auto;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    background-color: darkseagreen;
+    /*float: left;*/
+}
+li a {
+    width: 330px;
+    display: inline-block;
+    color: khaki;
+    text-decoration: none;
+}
+li a:hover {
+    color: darkkhaki;
+    background-color: darkolivegreen;
+}

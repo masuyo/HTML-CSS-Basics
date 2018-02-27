@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding:0;
+    background: lightgray;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: yellowgreen;
+}
+h1#header {
+    display: inline-block;
+    padding: 0px 25px;
+    color: white;
+    font-family: "Californian FB";
+}
+.text {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    text-align: justify;
+}
+section {
+    margin: 0 auto;
+}

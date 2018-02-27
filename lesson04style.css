@@ -1,0 +1,92 @@
+body{
+    background-image: url("images/background-pattern-14.jpg");
+    background-repeat: repeat;
+}
+#site {
+    margin: 0px auto;
+    width: 990px;
+    background-image: url("images/background.png");
+    background-repeat: repeat-y;
+}
+#header {
+    width: 100%;
+    height: 352px;
+    background-image: url("images/header001.png");
+}
+#navigation {
+    width: 100%;
+    height: 40px;
+    background-color: lightseagreen;
+}
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightseagreen;
+}
+li.horizontal {
+    /*width: 20%;*/
+    float: left;
+}
+
+li.horizontal a {
+    /*width: 198px;*/
+    height: 40px;
+    display: inline-block;
+    color: wheat;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+li.vertical a {
+    width: 330px;
+    display: inline-block;
+    color: wheat;
+    /*righton meghal 0 padding nélkül!?*/
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #c57c7f;
+    background-color: #bc2752;
+}
+#content {
+    width: 660px;
+    float: left;
+    background-color: wheat;
+}
+/*balra és jobbra is floatolhatom*/
+#sidebar {
+    width: 330px;
+    float: right;
+    background-color: lightseagreen;
+}
+h1#home {
+    text-align: center;
+    color: wheat;
+    background-color: lightseagreen;
+}
+h1#menu {
+    text-align: center;
+    color: lightseagreen;
+    background-color: wheat;
+}
+.clearFix{
+    clear:both;
+}
+.footer {
+    background-color: lightseagreen;
+    color: wheat;
+}
+/*
+span#year {
+    text-align: right;
+}
+*/
+p {
+    padding: 10px;
+    text-align: justify;
+}
