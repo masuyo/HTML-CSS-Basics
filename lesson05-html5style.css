@@ -27,17 +27,17 @@ ul {
     background-color: lightseagreen;
 }
 li.horizontal {
-    /*width: 20%;*/
+	width: 20%;
     float: left;
 }
 
 li.horizontal a {
-    /*width: 198px;*/
+    width: 100%;
     height: 40px;
     display: inline-block;
     color: wheat;
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px;
     text-decoration: none;
 }
 li.vertical a {
